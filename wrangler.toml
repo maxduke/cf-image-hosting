@@ -4,3 +4,12 @@ compatibility_date = "2024-04-30"
 
 [env.production.vars]
 API_HOST = "https://telegra.ph"
+USERNAME = "admin"
+PASSWORD = "admin"
+whiteList = ['localhost', 'abc.com', '123.com']
+
+[env.prod.vars]
+API_HOST = "https://telegra.ph"
+USERNAME = "admin"
+PASSWORD = "123456"
+whiteList = ['localhost', 'abc.com', '123.com']
